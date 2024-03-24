@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    scroll-behavior: smooth;
+}
+
+::selection{
+    color: rgb(253, 191, 56);
+}
+
+#photo{
+    width: 20%;
+
+}
+
+
+.home_img{
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 25px 1px 25px;
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+}
+
+#img{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+#navlist{
+    display: flex;
+    gap : 20px;
+}
+.links{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    transition: all ease 100ms;
+}
+
+.links:hover{
+    color: #7739c9;
+
+}
+
+#navlist > a:hover{
+    cursor: pointer;
+}
+
+#hero{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10%;
+}
+p{
+    font-weight: 100;
+    color: rgb(87, 80, 72);
+}
+
+#desc > h1{
+    font-size: 3rem;
+}
+
+#desc > p{
+    font-size: 1.4rem;
+}
+
+#hand{
+    width: 70px;
+    height: 40px;
+}
+
+#boy{
+    width: 230px;
+    height: 190px;
+    border: solid black 4px;
+    border-radius:50%;
+    padding: 10px;
+    mix-blend-mode:multiply;
+}
+.media{
+    width: 30px;
+    height: 30px;
+}
+
+#socials{
+    display: flex;
+    gap : 15px
+}
+
+#skill{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+
+}
+
+#html{
+    height: 40px;
+    width: 130px;
+}
+#java{
+    height: 50px;
+    width: 40px;
+    margin-left: 8px ;
+    
+}
+
+#python{
+    height: 40px;
+    width: 50px;
+    margin-left: 6px ;
+    
+}
+
+#react{
+    height: 40px;
+    width: 50px;
+    margin-left: 6px ;
+    
+}
+
+#Aboutsection{
+    display: flex;
+    gap : 2px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#frontend{
+    flex-basis: 50%;
+    margin-left: 150px;
+}
+
+#abouttext{
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+#education{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(61, 61, 61) 2px;
+    border-radius: 20px;
+    padding: 8px 30px 10px 36px ;
+}
+#abouthead{
+    color: #823497;
+}
+
+#frontimg{
+    width: 380px;
+    height: 300px;
+}
+
+#ed{
+    color: rgb(240, 127, 14);
+}
+
+#resume{
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 6px 10px 6px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#projectsection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+#projectcards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.card{
+    border: solid black 2px;
+    background-color: rgb(184, 184, 175);
+    border-radius:4px ;
+    height: 330px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+    align-items: center;
+}
+
+.card > h3{
+    text-align: center;
+}
+
+.pimg{
+    width: 100%;
+    height: 50%;
+    border-radius: 4px;
+    border: solid black 2px;
+    transition: all ease 1s;
+}
+
+.pimg:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transform: rotate(20deg);
+}
+
+.gitincard{
+    text-decoration: none;
+    color: #000;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#contactsection{
+    height: 50vh;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #555252;
+    color: white;
+}
+
+#contlinked{
+    width: 20px;
+    height: 20px;
+
+}
+
+#contlinks{
+    display: flex;
+    gap : 20px;
+
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,41 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>BMI Calci</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
+
+</head>
+<body>
+
+<div class="outer">
+<div class="inner">
+<header class="bmi">
+<h1><b>BMI CALCULATOR</b></h1>
+<p><b>Know Your BMI!</b></p>
+</header>
+
+<main class="bmibody">
+<form onsubmit="callvalue()">
+<p>
+<label for="height">Your Height</label>
+<input type="number" step="0.01" id="height" placeholder="your height in meters" required>
+</p>
+
+<p>
+<label for="weight">Your Weight</label>
+<input type="number" step="0.01" id="weight" placeholder="your weight in kgs" required>
+</p>
+
+<p>
+<input type="submit" id="submit" value="Get BMI">
+</p>
+</form>
+</main>
+
+
+
+</body>
+</html>
